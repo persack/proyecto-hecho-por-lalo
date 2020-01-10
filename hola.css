@@ -1,0 +1,30 @@
+/*
+    paginaw: Menú horizontal
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+
+.menuV{
+    float: left;
+    width: 26%;
+    overflow: hidden;
+    border: 5px double;
+}
+
+.menuV a{
+    background-color: rgb(46, 46, 124);
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+.menuV a:hover{
+    background-color: white;
+    color: black;
+}
+
